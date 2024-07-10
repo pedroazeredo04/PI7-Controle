@@ -1,0 +1,1484 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\pidx.X.production.o
+cinit CODE 0 15 15 2C 2 1
+idloc IDLOC 5 2000 2000 4 2 1
+text1 CODE 0 16D5 16D5 B 2 1
+text2 CODE 0 8E4 8E4 2D 2 1
+text3 CODE 0 A0E A0E 4D 2 1
+text4 CODE 0 16A1 16A1 6 2 1
+text5 CODE 0 16EE 16EE 11 2 1
+text6 CODE 0 82D 82D 1E 2 1
+text7 CODE 0 16CA 16CA B 2 1
+text8 CODE 0 911 911 39 2 1
+text9 CODE 0 86C 86C 22 2 1
+text10 CODE 0 94A 94A 3A 2 1
+text11 CODE 0 D84 D84 C0 2 1
+text12 CODE 0 1696 1696 5 2 1
+text13 CODE 0 169B 169B 6 2 1
+text14 CODE 0 6EB 6EB EB 2 1
+text15 CODE 0 F1B F1B E5 2 1
+text16 CODE 0 8B7 8B7 2D 2 1
+text17 CODE 0 84B 84B 21 2 1
+text18 CODE 0 7D6 7D6 29 2 1
+text19 CODE 0 88E 88E 29 2 1
+text20 CODE 0 16B7 16B7 9 2 1
+text21 CODE 0 80F 80F 1E 2 1
+text22 CODE 0 17E7 17E7 19 2 1
+text23 CODE 0 16C0 16C0 A 2 1
+text24 CODE 0 16E0 16E0 E 2 1
+text25 CODE 0 17CE 17CE 19 2 1
+text26 CODE 0 17B5 17B5 19 2 1
+text27 CODE 0 179C 179C 19 2 1
+text28 CODE 0 1783 1783 19 2 1
+text29 CODE 0 176A 176A 19 2 1
+text30 CODE 0 16FF 16FF 13 2 1
+text31 CODE 0 372 372 24D 2 1
+text32 CODE 0 C5F C5F 88 2 1
+text33 CODE 0 E44 E44 D7 2 1
+text34 CODE 0 5BF 5BF 12C 2 1
+text35 CODE 0 984 984 42 2 1
+text36 CODE 0 BE1 BE1 7E 2 1
+text37 CODE 0 53 53 31F 2 1
+text38 CODE 0 1751 1751 19 2 1
+text39 CODE 0 B0B B0B 5B 2 1
+text40 CODE 0 B66 B66 7B 2 1
+text41 CODE 0 9C6 9C6 48 2 1
+text42 CODE 0 CE7 CE7 9D 2 1
+text43 CODE 0 173A 173A 17 2 1
+text44 CODE 0 AB3 AB3 58 2 1
+text45 CODE 0 A5B A5B 58 2 1
+text46 CODE 0 1725 1725 15 2 1
+nvBANK3 BANK3 1 1CB 1CB 8 1 1
+maintext CODE 0 800 800 F 2 1
+cstackCOMMON COMMON 1 70 70 D 1 1
+cstackBANK0 BANK0 1 20 20 44 1 1
+cstackBANK1 BANK1 1 D2 D2 17 1 1
+cstackBANK3 BANK3 1 1DB 1DB 8 1 1
+inittext CODE 0 1712 1712 13 2 1
+intentry CODE 0 4 4 E 2 1
+bssBANK0 BANK0 1 64 64 8 1 1
+bssBANK1 BANK1 1 A0 A0 32 1 1
+bssBANK3 BANK3 1 190 190 3B 1 1
+idataBANK3 CODE 0 16AF 16AF 8 2 1
+strings STRING 0 1000 1000 1C 2 1
+dataBANK3 BANK3 1 1D3 1D3 8 1 1
+functab ENTRY 0 41 41 12 2 1
+clrtext CODE 0 16A7 16A7 8 2 1
+bssCOMMON COMMON 1 7D 7D 1 1 1
+config CONFIG 4 2007 2007 2 2 1
+$C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+idloc IDLOC 5 2000 2000 4 2 1
+reset_vec CODE 0 0 0 3 2 1
+end_init CODE 0 12 12 3 2 1
+config CONFIG 4 2007 2007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6C-6F 1
+RAM E9-EF 1
+RAM 110-16F 1
+RAM 1E3-1EF 1
+BANK0 6C-6F 1
+BANK1 E9-EF 1
+BANK2 110-16F 1
+BANK3 1E3-1EF 1
+CONST 3-3 2
+CONST 7FF-7FF 2
+CONST 101C-1695 2
+CONST 1800-1FFF 2
+ENTRY 3-3 2
+ENTRY 7FF-7FF 2
+ENTRY 101C-1695 2
+ENTRY 1800-1FFF 2
+CODE 3-3 2
+CODE 7FF-7FF 2
+CODE 101C-1695 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 3-3 2
+STRCODE 7FF-7FF 2
+STRCODE 101C-1695 2
+STRCODE 1800-1FFF 2
+STRING 3-3 2
+STRING 7FF-7FF 2
+STRING 101C-1695 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\pidx.X.production.o
+15 cinit CODE >1901:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+15 cinit CODE >1904:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+15 cinit CODE >2041:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16 cinit CODE >2042:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+17 cinit CODE >2043:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+18 cinit CODE >2044:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+19 cinit CODE >2045:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1A cinit CODE >2046:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1B cinit CODE >2047:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1C cinit CODE >2048:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1D cinit CODE >2049:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1E cinit CODE >2050:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+23 cinit CODE >2069:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+24 cinit CODE >2070:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+25 cinit CODE >2071:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+26 cinit CODE >2072:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+2B cinit CODE >2075:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+2C cinit CODE >2076:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+2D cinit CODE >2077:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+2E cinit CODE >2078:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+2F cinit CODE >2079:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+34 cinit CODE >2082:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+35 cinit CODE >2083:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+36 cinit CODE >2084:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+37 cinit CODE >2085:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+3C cinit CODE >2088:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+3D cinit CODE >2094:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+3D cinit CODE >2096:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+3E cinit CODE >2097:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+41 functab ENTRY >11306:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+41 functab ENTRY >11308:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+41 functab ENTRY >11309:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+41 functab ENTRY >11310:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+42 functab ENTRY >11311:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+43 functab ENTRY >11312:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+44 functab ENTRY >11313:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+45 functab ENTRY >11314:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+46 functab ENTRY >11316:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+46 functab ENTRY >11317:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+47 functab ENTRY >11320:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+47 functab ENTRY >11321:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+47 functab ENTRY >11323:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+4A functab ENTRY >11326:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+4A functab ENTRY >11327:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+4D functab ENTRY >11330:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+4D functab ENTRY >11331:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+50 functab ENTRY >11334:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+50 functab ENTRY >11335:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+4 intentry CODE >83:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+1725 text46 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+1726 text46 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+1729 text46 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+172C text46 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+1739 text46 CODE >36:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A5B text45 CODE >38:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A5C text45 CODE >40:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A60 text45 CODE >40:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A63 text45 CODE >40:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A68 text45 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A6D text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A7A text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A7D text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A7F text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A82 text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A84 text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A87 text45 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A8B text45 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+A9F text45 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+AA5 text45 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+AAB text45 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+AB0 text45 CODE >45:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+AB2 text45 CODE >46:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+AB3 text44 CODE >83:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AB3 text44 CODE >87:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+ABB text44 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+ABF text44 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AC3 text44 CODE >89:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AC8 text44 CODE >89:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+ACC text44 CODE >89:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AD0 text44 CODE >91:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AD4 text44 CODE >94:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AD9 text44 CODE >94:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+ADD text44 CODE >94:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AE1 text44 CODE >94:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AE4 text44 CODE >95:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AE8 text44 CODE >96:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AE9 text44 CODE >99:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AF1 text44 CODE >100:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AF3 text44 CODE >101:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AFD text44 CODE >102:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+AFE text44 CODE >104:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+173A text43 CODE >4:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+173D text43 CODE >6:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+173E text43 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+1742 text43 CODE >44:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+1746 text43 CODE >45:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+1748 text43 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+174A text43 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+174F text43 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+1750 text43 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+CE7 text42 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CE7 text42 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CEA text42 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CEE text42 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CF3 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CF5 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CF7 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CF9 text42 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CFB text42 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CFB text42 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+CFF text42 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D04 text42 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D06 text42 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D08 text42 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D0A text42 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D0E text42 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D16 text42 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D1A text42 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D1E text42 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D20 text42 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D21 text42 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D23 text42 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D2A text42 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D2E text42 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D32 text42 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D34 text42 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D3B text42 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D3D text42 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D41 text42 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D45 text42 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D49 text42 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D4D text42 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D50 text42 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D54 text42 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D58 text42 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D5B text42 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D5C text42 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D5D text42 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D63 text42 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D65 text42 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D6B text42 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D70 text42 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D75 text42 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D77 text42 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D79 text42 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D7B text42 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+D83 text42 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\aldiv.c
+9C6 text41 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9C6 text41 CODE >119:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9D0 text41 CODE >121:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9D4 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9D7 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9D8 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9DA text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9DE text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9DF text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9E1 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9E5 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9E6 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9E8 text41 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9EB text41 CODE >123:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9ED text41 CODE >123:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9F4 text41 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9F5 text41 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9FB text41 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+9FD text41 CODE >125:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+A01 text41 CODE >125:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+A05 text41 CODE >128:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+A0D text41 CODE >129:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul32.c
+B66 text40 CODE >7:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B66 text40 CODE >9:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B6C text40 CODE >10:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B72 text40 CODE >11:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B7E text40 CODE >12:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B84 text40 CODE >13:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B8E text40 CODE >14:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B9F text40 CODE >18:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BA0 text40 CODE >19:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BA1 text40 CODE >20:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BA2 text40 CODE >21:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BA3 text40 CODE >22:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BA8 text40 CODE >22:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BB0 text40 CODE >23:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BBC text40 CODE >24:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BC2 text40 CODE >25:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BCC text40 CODE >26:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BDD text40 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BDE text40 CODE >31:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BDF text40 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+BE0 text40 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+B0B text39 CODE >23:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B0B text39 CODE >25:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B11 text39 CODE >26:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B16 text39 CODE >26:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B1A text39 CODE >26:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B1E text39 CODE >27:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B24 text39 CODE >27:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B29 text39 CODE >28:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B2F text39 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B33 text39 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B37 text39 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B3C text39 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B40 text39 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B44 text39 CODE >31:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B4A text39 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B51 text39 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B55 text39 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B59 text39 CODE >33:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B5F text39 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B65 text39 CODE >35:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1751 text38 CODE >52:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+1751 text38 CODE >53:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+1769 text38 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+53 text37 CODE >45:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+53 text37 CODE >49:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+56 text37 CODE >53:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+73 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+A4 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+A8 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B0 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+B5 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+BD text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+DE text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+E0 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+E2 text37 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+E4 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+11B text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+123 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+12B text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+134 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+13C text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+168 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+169 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+16B text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+173 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+174 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+176 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17E text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17F text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+181 text37 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+18A text37 CODE >57:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1BF text37 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1C9 text37 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1CD text37 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1D3 text37 CODE >60:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1DD text37 CODE >61:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1DE text37 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1E4 text37 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1E8 text37 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1EC text37 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1F0 text37 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1F6 text37 CODE >64:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+200 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+22B text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+235 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+23F text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+2F9 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+2FF text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+305 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+30B text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+311 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+317 text37 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+330 text37 CODE >67:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+351 text37 CODE >68:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+352 text37 CODE >69:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+35B text37 CODE >70:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+35C text37 CODE >76:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+366 text37 CODE >77:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+36E text37 CODE >79:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+371 text37 CODE >81:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+BE1 text36 CODE >62:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BE1 text36 CODE >64:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BEB text36 CODE >64:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BEF text36 CODE >65:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BF6 text36 CODE >67:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BFA text36 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+BFB text36 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C00 text36 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C02 text36 CODE >66:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C09 text36 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C0D text36 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C10 text36 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C14 text36 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C17 text36 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C18 text36 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C1D text36 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C1F text36 CODE >70:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C26 text36 CODE >76:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C28 text36 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C29 text36 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C2E text36 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C30 text36 CODE >75:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C36 text36 CODE >75:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C3A text36 CODE >79:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C3E text36 CODE >80:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C44 text36 CODE >81:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C46 text36 CODE >82:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C4B text36 CODE >82:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C50 text36 CODE >82:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C58 text36 CODE >83:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C5D text36 CODE >84:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+C5E text36 CODE >86:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\float.c
+984 text35 CODE >42:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+984 text35 CODE >45:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+987 text35 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+989 text35 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+98D text35 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+992 text35 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+994 text35 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+996 text35 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+998 text35 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+99B text35 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+99C text35 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+9A2 text35 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+9A4 text35 CODE >54:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+9A8 text35 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+9AE text35 CODE >56:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+9C5 text35 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\altoft.c
+5BF text34 CODE >86:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5BF text34 CODE >90:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5C7 text34 CODE >90:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5CB text34 CODE >91:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5D1 text34 CODE >91:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5D5 text34 CODE >92:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5DC text34 CODE >92:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5E6 text34 CODE >92:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5EA text34 CODE >93:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5F1 text34 CODE >94:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+5F8 text34 CODE >94:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+602 text34 CODE >94:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+606 text34 CODE >95:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+607 text34 CODE >96:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+609 text34 CODE >97:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+60D text34 CODE >98:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+60E text34 CODE >99:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+612 text34 CODE >100:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+613 text34 CODE >101:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+614 text34 CODE >102:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+61A text34 CODE >103:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+61B text34 CODE >104:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+621 text34 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+623 text34 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+627 text34 CODE >110:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+628 text34 CODE >110:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+62D text34 CODE >110:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+62F text34 CODE >111:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+631 text34 CODE >112:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+633 text34 CODE >112:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+640 text34 CODE >114:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+641 text34 CODE >114:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+646 text34 CODE >114:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+648 text34 CODE >115:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+64C text34 CODE >113:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+64E text34 CODE >113:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+653 text34 CODE >117:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+655 text34 CODE >117:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+659 text34 CODE >121:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+65A text34 CODE >121:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+65F text34 CODE >121:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+661 text34 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+663 text34 CODE >123:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+665 text34 CODE >123:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+672 text34 CODE >125:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+673 text34 CODE >125:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+678 text34 CODE >125:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+67A text34 CODE >126:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+67E text34 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+680 text34 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+684 text34 CODE >129:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+688 text34 CODE >131:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+68E text34 CODE >132:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+691 text34 CODE >132:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+695 text34 CODE >132:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+698 text34 CODE >134:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+69C text34 CODE >136:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6A2 text34 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6A5 text34 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6A9 text34 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6AC text34 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6AD text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6B0 text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6B1 text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6B3 text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6B7 text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6B8 text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6BA text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6BD text34 CODE >141:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6C1 text34 CODE >142:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6C7 text34 CODE >143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6CA text34 CODE >143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6CE text34 CODE >143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6D1 text34 CODE >144:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6D3 text34 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+6EA text34 CODE >148:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftadd.c
+E44 text33 CODE >62:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E44 text33 CODE >67:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E4C text33 CODE >67:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E55 text33 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E5C text33 CODE >69:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E62 text33 CODE >69:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E6B text33 CODE >70:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E72 text33 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E77 text33 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E7E text33 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E83 text33 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E87 text33 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E8E text33 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E93 text33 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E99 text33 CODE >74:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E9D text33 CODE >75:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E9E text33 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+E9F text33 CODE >78:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EA5 text33 CODE >79:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EAB text33 CODE >134:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EAD text33 CODE >136:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EB1 text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EB4 text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EB5 text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EB7 text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EBB text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EBC text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EBE text33 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EC1 text33 CODE >138:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EC2 text33 CODE >138:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EC7 text33 CODE >138:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EC9 text33 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+ECA text33 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+ECF text33 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+ED1 text33 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+ED7 text33 CODE >143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+ED9 text33 CODE >145:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EDD text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EE0 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EE1 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EE3 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EE7 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EE8 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EEA text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EED text33 CODE >147:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EEE text33 CODE >147:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EF3 text33 CODE >147:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EF5 text33 CODE >148:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EF6 text33 CODE >148:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EFB text33 CODE >148:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+EFD text33 CODE >149:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+F03 text33 CODE >156:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+F1A text33 CODE >157:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\ftmul.c
+C5F text32 CODE >44:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C5F text32 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C67 text32 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C70 text32 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C79 text32 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C80 text32 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C85 text32 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C89 text32 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C8A text32 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C90 text32 CODE >54:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C97 text32 CODE >55:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C99 text32 CODE >56:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+C9D text32 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CA0 text32 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CA5 text32 CODE >60:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CA6 text32 CODE >60:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CAC text32 CODE >60:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CAE text32 CODE >61:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CB7 text32 CODE >63:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CB9 text32 CODE >63:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CBE text32 CODE >66:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CC0 text32 CODE >66:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CC7 text32 CODE >67:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CC9 text32 CODE >65:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CC9 text32 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CCE text32 CODE >70:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CD3 text32 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CD8 text32 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CDA text32 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CDC text32 CODE >71:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CDE text32 CODE >72:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+CE6 text32 CODE >73:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\fttol.c
+372 text31 CODE >13:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+375 text31 CODE >14:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+37D text31 CODE >16:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+385 text31 CODE >17:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+38D text31 CODE >18:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+38E text31 CODE >19:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+38F text31 CODE >21:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+398 text31 CODE >22:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3A0 text31 CODE >23:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3A2 text31 CODE >24:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3A2 text31 CODE >25:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3A4 text31 CODE >25:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3A9 text31 CODE >26:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3B7 text31 CODE >28:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3C2 text31 CODE >28:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3D1 text31 CODE >28:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3E5 text31 CODE >33:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3F4 text31 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+3FE text31 CODE >35:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+400 text31 CODE >36:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+401 text31 CODE >37:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+426 text31 CODE >38:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+42B text31 CODE >39:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4B0 text31 CODE >40:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4B1 text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4EE text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4F2 text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4FA text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+4FF text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+507 text31 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+527 text31 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+57A text31 CODE >45:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+57F text31 CODE >46:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+5BE text31 CODE >47:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\utils.c
+16FF text30 CODE >99:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+16FF text30 CODE >100:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1709 text30 CODE >101:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1711 text30 CODE >102:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+176A text29 CODE >87:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+176A text29 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1782 text29 CODE >89:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1783 text28 CODE >91:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+1783 text28 CODE >92:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+179B text28 CODE >93:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+179C text27 CODE >83:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+179C text27 CODE >84:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17B4 text27 CODE >85:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17B5 text26 CODE >95:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17B5 text26 CODE >96:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17CD text26 CODE >97:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+17CE text25 CODE >48:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+17CE text25 CODE >49:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+17E6 text25 CODE >50:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+16E0 text24 CODE >65:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16E3 text24 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16E9 text24 CODE >67:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16ED text24 CODE >68:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16C0 text23 CODE >149:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+16C0 text23 CODE >150:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+16C6 text23 CODE >151:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+16C8 text23 CODE >153:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+16C9 text23 CODE >154:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+17E7 text22 CODE >156:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+17E7 text22 CODE >158:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+17FF text22 CODE >159:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+80F text21 CODE >38:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+80F text21 CODE >40:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+812 text21 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+817 text21 CODE >42:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+81B text21 CODE >43:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+821 text21 CODE >43:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+825 text21 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+828 text21 CODE >45:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+829 text21 CODE >46:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+82C text21 CODE >47:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16B7 text20 CODE >50:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16B7 text20 CODE >51:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16BA text20 CODE >52:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16BF text20 CODE >53:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+88E text19 CODE >85:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+891 text19 CODE >86:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+893 text19 CODE >86:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+897 text19 CODE >87:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+89A text19 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8A8 text19 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8AE text19 CODE >88:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8B2 text19 CODE >91:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8B6 text19 CODE >94:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+7D6 text18 CODE >55:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+7D9 text18 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+7F7 text18 CODE >61:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+7FC text18 CODE >62:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+7FE text18 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+84B text17 CODE >102:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+84B text17 CODE >104:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+84C text17 CODE >106:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+862 text17 CODE >107:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+863 text17 CODE >104:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+869 text17 CODE >109:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+86B text17 CODE >111:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+8B7 text16 CODE >70:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8BA text16 CODE >71:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8C0 text16 CODE >72:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8C2 text16 CODE >73:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8C8 text16 CODE >74:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8CA text16 CODE >75:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8D0 text16 CODE >76:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8D2 text16 CODE >77:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8D8 text16 CODE >78:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8DA text16 CODE >79:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8E0 text16 CODE >80:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8E2 text16 CODE >81:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+8E3 text16 CODE >82:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F1B text15 CODE >99:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F1B text15 CODE >102:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F23 text15 CODE >103:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F24 text15 CODE >104:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F24 text15 CODE >106:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F27 text15 CODE >108:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F2F text15 CODE >112:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F34 text15 CODE >114:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F3B text15 CODE >116:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F3C text15 CODE >118:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F42 text15 CODE >119:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F44 text15 CODE >120:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F45 text15 CODE >121:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F4B text15 CODE >125:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F4D text15 CODE >125:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F51 text15 CODE >126:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F56 text15 CODE >127:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F5A text15 CODE >128:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F5B text15 CODE >133:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F69 text15 CODE >134:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F6F text15 CODE >135:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F73 text15 CODE >136:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F74 text15 CODE >141:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F7A text15 CODE >142:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F85 text15 CODE >144:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F8E text15 CODE >146:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F91 text15 CODE >147:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+F9C text15 CODE >149:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FA6 text15 CODE >151:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FAE text15 CODE >151:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FB2 text15 CODE >152:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FB4 text15 CODE >153:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FB5 text15 CODE >154:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FC3 text15 CODE >155:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FC9 text15 CODE >156:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FCA text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FD1 text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FD6 text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FD9 text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FDC text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FDF text15 CODE >163:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FE2 text15 CODE >165:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FE7 text15 CODE >167:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+FFF text15 CODE >168:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+6EB text14 CODE >41:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+6EB text14 CODE >43:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+70A text14 CODE >44:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+711 text14 CODE >45:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+730 text14 CODE >51:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+74B text14 CODE >52:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+74C text14 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+75B text14 CODE >55:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+760 text14 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+761 text14 CODE >58:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+77C text14 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+77D text14 CODE >61:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+798 text14 CODE >62:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+799 text14 CODE >64:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7B4 text14 CODE >65:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7B5 text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7BE text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7C3 text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7C6 text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7C9 text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7CC text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7CF text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7D2 text14 CODE >66:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+7D5 text14 CODE >68:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+169B text13 CODE >33:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+169B text13 CODE >34:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+16A0 text13 CODE >35:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+1696 text12 CODE >72:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+1696 text12 CODE >73:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+169A text12 CODE >74:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+D84 text11 CODE >25:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+D84 text11 CODE >28:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+D87 text11 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DBA text11 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DC0 text11 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DC6 text11 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DD3 text11 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DF6 text11 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DFA text11 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+DFE text11 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E02 text11 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E06 text11 CODE >31:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E17 text11 CODE >32:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E1D text11 CODE >33:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E37 text11 CODE >35:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E3F text11 CODE >35:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+E43 text11 CODE >36:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+94A text10 CODE >19:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+94A text10 CODE >20:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+95B text10 CODE >21:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+96D text10 CODE >22:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+983 text10 CODE >23:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\multitasking.c
+86C text9 CODE >49:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+86C text9 CODE >50:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+872 text9 CODE >51:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+874 text9 CODE >52:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+878 text9 CODE >53:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87A text9 CODE >54:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87B text9 CODE >55:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87C text9 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87D text9 CODE >57:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87E text9 CODE >58:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+87F text9 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+880 text9 CODE >60:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+881 text9 CODE >61:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+883 text9 CODE >62:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+887 text9 CODE >63:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+88D text9 CODE >65:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\motor.c
+911 text8 CODE >104:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+911 text8 CODE >105:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+91B text8 CODE >106:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+923 text8 CODE >107:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+92B text8 CODE >108:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+935 text8 CODE >109:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+93F text8 CODE >110:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+949 text8 CODE >111:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\pid.c
+16CA text7 CODE >11:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+16CA text7 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+16D4 text7 CODE >30:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X/Users/jun/Documents/PMR3406/PI-7/PID/position_sensor.X/position_sensor.c
+82D text6 CODE >29:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+82D text6 CODE >68:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+831 text6 CODE >69:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+832 text6 CODE >70:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+835 text6 CODE >71:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+838 text6 CODE >72:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+839 text6 CODE >73:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+83C text6 CODE >74:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+83D text6 CODE >75:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+83E text6 CODE >76:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+841 text6 CODE >77:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+842 text6 CODE >78:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+843 text6 CODE >79:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+846 text6 CODE >80:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+849 text6 CODE >81:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+84A text6 CODE >82:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\serial.c
+16EE text5 CODE >173:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16EE text5 CODE >174:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16F1 text5 CODE >175:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16F4 text5 CODE >176:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16F9 text5 CODE >177:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16FE text5 CODE >178:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16A1 text4 CODE >183:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16A4 text4 CODE >184:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+16A6 text4 CODE >185:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\protocol.c
+A0E text3 CODE >80:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A0E text3 CODE >82:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A13 text3 CODE >83:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A18 text3 CODE >84:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A1D text3 CODE >85:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A22 text3 CODE >86:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A28 text3 CODE >89:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A38 text3 CODE >90:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A49 text3 CODE >91:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+A5A text3 CODE >92:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\tasks.c
+8E4 text2 CODE >49:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8E4 text2 CODE >50:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8EA text2 CODE >51:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8F0 text2 CODE >52:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8F6 text2 CODE >53:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8F7 text2 CODE >56:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8FB text2 CODE >58:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+8FE text2 CODE >59:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+902 text2 CODE >60:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+903 text2 CODE >62:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+905 text2 CODE >71:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+909 text2 CODE >72:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+90D text2 CODE >73:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+90F text2 CODE >75:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+910 text2 CODE >76:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+16D5 text1 CODE >110:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+16D5 text1 CODE >111:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+16DA text1 CODE >112:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+16DF text1 CODE >113:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+800 maintext CODE >119:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+800 maintext CODE >120:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+805 maintext CODE >121:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+806 maintext CODE >122:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+806 maintext CODE >123:C:\Users\Rafael\Downloads\controle_usando_long\controle_usando_long\pidx.X\pidx.X\position_controller_main.c
+16A7 clrtext CODE >2056:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16A7 clrtext CODE >2057:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16A8 clrtext CODE >2058:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16A8 clrtext CODE >2059:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16A9 clrtext CODE >2060:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16AA clrtext CODE >2061:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16AB clrtext CODE >2062:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16AC clrtext CODE >2063:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16AD clrtext CODE >2064:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+16AE clrtext CODE >2065:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1712 inittext CODE >2015:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1712 inittext CODE >2016:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1713 inittext CODE >2017:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1714 inittext CODE >2018:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1715 inittext CODE >2019:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1716 inittext CODE >2026:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1716 inittext CODE >2027:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+171B inittext CODE >2028:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+171C inittext CODE >2029:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+171D inittext CODE >2030:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+171E inittext CODE >2031:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+171F inittext CODE >2032:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1720 inittext CODE >2033:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1721 inittext CODE >2034:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1722 inittext CODE >2035:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1723 inittext CODE >2036:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+1724 inittext CODE >2037:C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\pidx.X.production.o
+__LdataBANK3 A6 0 ABS 0 dataBANK3 -
+__Hspace_0 1800 0 ABS 0 - -
+__Hspace_1 1E3 0 ABS 0 - -
+__Hspace_2 A6 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+__HidataBANK3 A6 0 ABS 0 idataBANK3 -
+__end_of_pos_init 2DAA 0 CODE 0 text7 dist/default/production\pidx.X.production.o
+createTask@scheduleInterval 2A 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+isValid@aChar 26 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_pro_getMessage 2000 0 CODE 0 text15 dist/default/production\pidx.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_pic_init 11C8 0 CODE 0 text2 dist/default/production\pidx.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+_pid_init 1222 0 CODE 0 text8 dist/default/production\pidx.X.production.o
+_pid_task 2D36 0 CODE 0 text13 dist/default/production\pidx.X.production.o
+__Hstrings A6 0 ABS 0 strings -
+_pos_encoderStatus 2E4A 0 CODE 0 text46 dist/default/production\pidx.X.production.o
+_currentPosition CC 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+_BRGH 4C2 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CREN C4 0 ABS 0 - dist/default/production\pidx.X.production.o
+_FERR C2 0 ABS 0 - dist/default/production\pidx.X.production.o
+_IOCB 96 0 ABS 0 - dist/default/production\pidx.X.production.o
+_OERR C1 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RBIE 5B 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RBIF 58 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RCIE 465 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RCIF 65 0 ABS 0 - dist/default/production\pidx.X.production.o
+_SPEN C7 0 ABS 0 - dist/default/production\pidx.X.production.o
+_T0IE 5D 0 ABS 0 - dist/default/production\pidx.X.production.o
+_T0IF 5A 0 ABS 0 - dist/default/production\pidx.X.production.o
+_SREN C5 0 ABS 0 - dist/default/production\pidx.X.production.o
+_SYNC 4C4 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TMR0 1 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TXEN 4C5 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TXIE 464 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TXIF 64 0 ABS 0 - dist/default/production\pidx.X.production.o
+_WPUB 95 0 ABS 0 - dist/default/production\pidx.X.production.o
+___sp A6 0 STACK 2 stack C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+_main 1000 0 CODE 0 maintext dist/default/production\pidx.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\pidx.X.production.o
+___ftadd@f1 41 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftadd@f2 44 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?_pro_getMessage 27 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+start 24 0 CODE 0 init C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+__end_of_pic_init 1222 0 CODE 0 text2 dist/default/production\pidx.X.production.o
+convertToReal@chars E3 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+__pfunctab 82 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+_enc_states 200C 0 STRING 0 strings dist/default/production\pidx.X.production.o
+convertToReal@value DF 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+__HbssCOMMON A6 0 ABS 0 bssCOMMON -
+__end_of_pid_init 1294 0 CODE 0 text8 dist/default/production\pidx.X.production.o
+__end_of_pid_task 2D42 0 CODE 0 text13 dist/default/production\pidx.X.production.o
+__end_of_isValidCmd FFE 0 CODE 0 text18 dist/default/production\pidx.X.production.o
+__end_of_pos_getCurrentPosition 2ED4 0 CODE 0 text38 dist/default/production\pidx.X.production.o
+?___lmul 33 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__LidataBANK3 A6 0 ABS 0 idataBANK3 -
+__end_of_toMsgType 11C8 0 CODE 0 text16 dist/default/production\pidx.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+pid_setIntegralGain@gain 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+isr@interruptCounter D0 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+intlevel0 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+intlevel1 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+intlevel2 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+intlevel3 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+intlevel4 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+intlevel5 82 0 ENTRY 0 functab C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+pro_setMyId@id 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pro_status 69 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+__LbssCOMMON A6 0 ABS 0 bssCOMMON -
+___bmul@multiplicand 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___aldiv@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_cleanupBuffer 105A 0 CODE 0 text21 dist/default/production\pidx.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\pidx.X.production.o
+_executeTasks 1B08 0 CODE 0 text11 dist/default/production\pidx.X.production.o
+__Hfunctab A6 0 ENTRY 0 functab -
+_led_task 2D2C 0 CODE 0 text12 dist/default/production\pidx.X.production.o
+_toMsgType 116E 0 CODE 0 text16 dist/default/production\pidx.X.production.o
+__end_of_addToIncomingBuffer 2DDC 0 CODE 0 text24 dist/default/production\pidx.X.production.o
+___aldiv@sign 2E 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_kDerivative B8 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__Hclrtext A6 0 ABS 0 clrtext -
+___ftmul@f1 32 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftmul@f2 35 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_led_task 2D36 0 CODE 0 text12 dist/default/production\pidx.X.production.o
+pid_setDerivativeGain@gain 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_ANSELH 189 0 ABS 0 - dist/default/production\pidx.X.production.o
+__end_of_enc_states 202C 0 STRING 0 strings dist/default/production\pidx.X.production.o
+_CCPR1L 15 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCPR2L 1B 0 ABS 0 - dist/default/production\pidx.X.production.o
+___altoft@c 2C 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of___bmul 2EA2 0 CODE 0 text43 dist/default/production\pidx.X.production.o
+__end_of___lmul 141C 0 CODE 0 text41 dist/default/production\pidx.X.production.o
+_mot_init 10D8 0 CODE 0 text9 dist/default/production\pidx.X.production.o
+convertToReal@decimal D6 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+___fttol@f1 4D 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__Lmaintext A6 0 ABS 0 maintext -
+__end_of_convertToReal B7E 0 CODE 0 text31 dist/default/production\pidx.X.production.o
+__end_of_pos_setCurrentPosition 2FCE 0 CODE 0 text25 dist/default/production\pidx.X.production.o
+__LnvBANK3 A6 0 ABS 0 nvBANK3 -
+___bmul@multiplier 26 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of___aldiv 1B08 0 CODE 0 text42 dist/default/production\pidx.X.production.o
+__end_of___ftadd DD6 0 CODE 0 text34 dist/default/production\pidx.X.production.o
+__end_of___ftmul 1E36 0 CODE 0 text33 dist/default/production\pidx.X.production.o
+__end_of___fttol 19CE 0 CODE 0 text32 dist/default/production\pidx.X.production.o
+__end_of_mot_init 111C 0 CODE 0 text9 dist/default/production\pidx.X.production.o
+__end_of_chkchr 2D94 0 CODE 0 text23 dist/default/production\pidx.X.production.o
+_completeMessage 1B1 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+_OPTION_REG 81 0 ABS 0 - dist/default/production\pidx.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+pos_encoderStatus@curr 70 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+pos_encoderStatus@prev 73 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+_pos_currentPosition A0 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+_createTask 1294 0 CODE 0 text10 dist/default/production\pidx.X.production.o
+__end_of_executeTasks 1C88 0 CODE 0 text11 dist/default/production\pidx.X.production.o
+mot_setExcitation@value 28 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?_pid_scaleExcitation 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+start_initialization 2A 0 CODE 0 cinit dist/default/production\pidx.X.production.o
+_pid_setIntegralGain 2F06 0 CODE 0 text28 dist/default/production\pidx.X.production.o
+___altoft 1308 0 CODE 0 text35 dist/default/production\pidx.X.production.o
+convertToReal@potDez DB 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+___aldiv@quotient 2F 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_previousPosition AC 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__end_of___altoft 138C 0 CODE 0 text35 dist/default/production\pidx.X.production.o
+convertToReal@signal D2 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+clear_ram0 2D4E 0 CODE 0 clrtext dist/default/production\pidx.X.production.o
+_SPBRGH 9A 0 ABS 0 - dist/default/production\pidx.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__pcstackBANK1 D2 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+__pcstackBANK3 1DB 0 BANK3 1 cstackBANK3 dist/default/production\pidx.X.production.o
+___fttol@exp1 59 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___fttol@lval 55 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+pid_setProportionalGain@gain 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_TMR2IF 61 0 ABS 0 - dist/default/production\pidx.X.production.o
+_pro_setMyId 2D42 0 CODE 0 text4 dist/default/production\pidx.X.production.o
+___ftpack 17C2 0 CODE 0 text36 dist/default/production\pidx.X.production.o
+pid_scaleExcitation@activation 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pid_setPoint 2F38 0 CODE 0 text27 dist/default/production\pidx.X.production.o
+___ftpack@arg 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftpack@exp 27 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___int_sp A6 0 STACK 2 stack C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+__end_of___ftpack 18BE 0 CODE 0 text36 dist/default/production\pidx.X.production.o
+__Hbank0 A6 0 ABS 0 bank0 -
+__Hbank1 A6 0 ABS 0 bank1 -
+__Hbank2 A6 0 ABS 0 bank2 -
+__Hbank3 A6 0 ABS 0 bank3 -
+__Hcinit 82 0 CODE 0 cinit -
+__Hidloc 4008 0 IDLOC 5 idloc -
+__Hstack A6 0 STACK 2 stack -
+__stringbase 200A 0 STRING 0 strings dist/default/production\pidx.X.production.o
+_kProportional 1CF 0 BANK3 1 nvBANK3 dist/default/production\pidx.X.production.o
+?_isValidCmd 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__Hmaintext A6 0 ABS 0 maintext -
+_pid_clearError 2DFE 0 CODE 0 text30 dist/default/production\pidx.X.production.o
+__Hcommon A6 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 4 config -
+__end_of_isValid 116E 0 CODE 0 text19 dist/default/production\pidx.X.production.o
+__end_of_createTask 1308 0 CODE 0 text10 dist/default/production\pidx.X.production.o
+pos_UpdatePosition@dir 75 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+__end_of_mot_setExcitation 17C2 0 CODE 0 text40 dist/default/production\pidx.X.production.o
+__Lbank0 A6 0 ABS 0 bank0 -
+__Lbank1 A6 0 ABS 0 bank1 -
+__Lbank2 A6 0 ABS 0 bank2 -
+__Lbank3 A6 0 ABS 0 bank3 -
+__Lcinit 2A 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+___ftadd@exp1 4C 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftadd@exp2 4B 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftadd@sign 4A 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__Lstack A6 0 STACK 2 stack -
+__size_of__fptable 0 0 ABS 0 - dist/default/production\pidx.X.production.o
+pos_UpdatePosition@curr_state 7B 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+__end_of_pid_pid 6E4 0 CODE 0 text37 dist/default/production\pidx.X.production.o
+__Linittext A6 0 ABS 0 inittext -
+_PORTAbits 5 0 ABS 0 - dist/default/production\pidx.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\pidx.X.production.o
+__Habs1 A6 0 ABS 0 abs1 -
+__Hcode A6 0 ABS 0 code -
+__Hinit 24 0 CODE 0 init -
+__Hsfr0 A6 0 ABS 0 sfr0 -
+__Hsfr1 A6 0 ABS 0 sfr1 -
+__Hsfr2 A6 0 ABS 0 sfr2 -
+__Hsfr3 A6 0 ABS 0 sfr3 -
+__Htext A6 0 ABS 0 text -
+__Labs1 A6 0 ABS 0 abs1 -
+__Lcode A6 0 ABS 0 code -
+__Linit 24 0 CODE 0 init -
+__Lsfr0 A6 0 ABS 0 sfr0 -
+__Lsfr1 A6 0 ABS 0 sfr1 -
+__Lsfr2 A6 0 ABS 0 sfr2 -
+__Lsfr3 A6 0 ABS 0 sfr3 -
+__Ltext A6 0 ABS 0 text -
+__pnvBANK3 1CB 0 BANK3 1 nvBANK3 dist/default/production\pidx.X.production.o
+___bmul 2E74 0 CODE 0 text43 dist/default/production\pidx.X.production.o
+___lmul 138C 0 CODE 0 text41 dist/default/production\pidx.X.production.o
+__LcstackBANK0 A6 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 A6 0 ABS 0 cstackBANK1 -
+__LcstackBANK3 A6 0 ABS 0 cstackBANK3 -
+_protocol_task DD6 0 CODE 0 text14 dist/default/production\pidx.X.production.o
+__HcstackCOMMON A6 0 ABS 0 cstackCOMMON -
+_delayus_variable 6B 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+_PR2 92 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RA4 2C 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RB5 35 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RX9 C6 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TX9 4C6 0 ABS 0 - dist/default/production\pidx.X.production.o
+__S0 1800 0 ABS 0 - -
+__S1 1E3 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_isr 1566 0 CODE 0 text44 dist/default/production\pidx.X.production.o
+__end_of_pid_setDerivativeGain 2F06 0 CODE 0 text29 dist/default/production\pidx.X.production.o
+pos_UpdatePosition@prev_state 7D 0 COMMON 1 bssCOMMON dist/default/production\pidx.X.production.o
+_previousError BC 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+saved_w 7E 0 ABS 0 - dist/default/production\pidx.X.production.o
+_chkchr 2D80 0 CODE 0 text23 dist/default/production\pidx.X.production.o
+__end_of_pid_setIntegralGain 2F38 0 CODE 0 text28 dist/default/production\pidx.X.production.o
+toMsgType@aChar 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_integralErrorScaled C4 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+executeTasks@i 63 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+createTask@taskID 27 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_pid_clearError 2E24 0 CODE 0 text30 dist/default/production\pidx.X.production.o
+__end_of_pid_setPoint 2F6A 0 CODE 0 text27 dist/default/production\pidx.X.production.o
+__end_of_isr 1616 0 CODE 0 text44 dist/default/production\pidx.X.production.o
+_pid_setDerivativeGain 2ED4 0 CODE 0 text29 dist/default/production\pidx.X.production.o
+__end_of_clear_usart_errors 3000 0 CODE 0 text22 dist/default/production\pidx.X.production.o
+__HnvBANK3 A6 0 ABS 0 nvBANK3 -
+__Lintentry 8 0 CODE 0 intentry -
+__stringtab 2000 0 STRING 0 strings dist/default/production\pidx.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Rafael\AppData\Local\Temp\xcAsci0.\driver_tmp_12.o
+_tsk_elapsedTime 1BC 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+__fptable 82 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+__pdataBANK3 1D3 0 BANK3 1 dataBANK3 dist/default/production\pidx.X.production.o
+_pro_incoming 1A5 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+__LbssBANK0 A6 0 ABS 0 bssBANK0 -
+__LbssBANK1 A6 0 ABS 0 bssBANK1 -
+__LbssBANK3 A6 0 ABS 0 bssBANK3 -
+?___altoft 2C 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+pos_UpdatePosition@init 74 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+pos_UpdatePosition@port 7A 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+__end_of__fptable A6 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+__end_of_initTasks 14B6 0 CODE 0 text3 dist/default/production\pidx.X.production.o
+___altoft@exp 30 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__ptext10 1294 0 CODE 0 text10 dist/default/production\pidx.X.production.o
+__ptext11 1B08 0 CODE 0 text11 dist/default/production\pidx.X.production.o
+__ptext12 2D2C 0 CODE 0 text12 dist/default/production\pidx.X.production.o
+__ptext13 2D36 0 CODE 0 text13 dist/default/production\pidx.X.production.o
+__ptext14 DD6 0 CODE 0 text14 dist/default/production\pidx.X.production.o
+__ptext15 1E36 0 CODE 0 text15 dist/default/production\pidx.X.production.o
+__ptext16 116E 0 CODE 0 text16 dist/default/production\pidx.X.production.o
+__ptext17 1096 0 CODE 0 text17 dist/default/production\pidx.X.production.o
+__ptext18 FAC 0 CODE 0 text18 dist/default/production\pidx.X.production.o
+__ptext19 111C 0 CODE 0 text19 dist/default/production\pidx.X.production.o
+__ptext20 2D6E 0 CODE 0 text20 dist/default/production\pidx.X.production.o
+__ptext21 101E 0 CODE 0 text21 dist/default/production\pidx.X.production.o
+__ptext22 2FCE 0 CODE 0 text22 dist/default/production\pidx.X.production.o
+__ptext23 2D80 0 CODE 0 text23 dist/default/production\pidx.X.production.o
+__ptext24 2DC0 0 CODE 0 text24 dist/default/production\pidx.X.production.o
+__ptext25 2F9C 0 CODE 0 text25 dist/default/production\pidx.X.production.o
+__ptext26 2F6A 0 CODE 0 text26 dist/default/production\pidx.X.production.o
+__ptext27 2F38 0 CODE 0 text27 dist/default/production\pidx.X.production.o
+__ptext28 2F06 0 CODE 0 text28 dist/default/production\pidx.X.production.o
+__ptext29 2ED4 0 CODE 0 text29 dist/default/production\pidx.X.production.o
+__ptext30 2DFE 0 CODE 0 text30 dist/default/production\pidx.X.production.o
+__ptext31 6E4 0 CODE 0 text31 dist/default/production\pidx.X.production.o
+__ptext32 18BE 0 CODE 0 text32 dist/default/production\pidx.X.production.o
+__ptext33 1C88 0 CODE 0 text33 dist/default/production\pidx.X.production.o
+__ptext34 B7E 0 CODE 0 text34 dist/default/production\pidx.X.production.o
+__ptext35 1308 0 CODE 0 text35 dist/default/production\pidx.X.production.o
+__ptext36 17C2 0 CODE 0 text36 dist/default/production\pidx.X.production.o
+__ptext37 A6 0 CODE 0 text37 dist/default/production\pidx.X.production.o
+__ptext38 2EA2 0 CODE 0 text38 dist/default/production\pidx.X.production.o
+__ptext39 1616 0 CODE 0 text39 dist/default/production\pidx.X.production.o
+__ptext40 16CC 0 CODE 0 text40 dist/default/production\pidx.X.production.o
+__ptext41 138C 0 CODE 0 text41 dist/default/production\pidx.X.production.o
+__ptext42 19CE 0 CODE 0 text42 dist/default/production\pidx.X.production.o
+__ptext43 2E74 0 CODE 0 text43 dist/default/production\pidx.X.production.o
+__ptext44 1566 0 CODE 0 text44 dist/default/production\pidx.X.production.o
+__ptext45 14B6 0 CODE 0 text45 dist/default/production\pidx.X.production.o
+__ptext46 2E4A 0 CODE 0 text46 dist/default/production\pidx.X.production.o
+createTask@t 29 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___aldiv 19CE 0 CODE 0 text42 dist/default/production\pidx.X.production.o
+___ftadd B7E 0 CODE 0 text34 dist/default/production\pidx.X.production.o
+___ftmul 1C88 0 CODE 0 text33 dist/default/production\pidx.X.production.o
+___fttol 18BE 0 CODE 0 text32 dist/default/production\pidx.X.production.o
+__pmaintext 1000 0 CODE 0 maintext dist/default/production\pidx.X.production.o
+___lmul@multiplier 33 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_mot_setExcitation 16CC 0 CODE 0 text40 dist/default/production\pidx.X.production.o
+_excitation 64 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+__Lcommon A6 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+?___ftpack 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pro_myAddress 6A 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+_clear_usart_errors 2FCE 0 CODE 0 text22 dist/default/production\pidx.X.production.o
+_tsk_timeStamp A8 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__Hinittext A6 0 ABS 0 inittext -
+_pid_scaleExcitation 1616 0 CODE 0 text39 dist/default/production\pidx.X.production.o
+_initTasks 141C 0 CODE 0 text3 dist/default/production\pidx.X.production.o
+_pid_pid$1134 48 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of__stringtab 200C 0 STRING 0 strings dist/default/production\pidx.X.production.o
+_tsk_tasks 190 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+?_convertToReal 5A 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pid_setProportionalGain 2F6A 0 CODE 0 text26 dist/default/production\pidx.X.production.o
+mot_setExcitation@excitation 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+___ftmul@cntr 3F 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__pbssCOMMON 7D 0 COMMON 1 bssCOMMON dist/default/production\pidx.X.production.o
+___ftmul@sign 40 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+pro_getMessage@aChar 37 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_pid_setProportionalGain 2F9C 0 CODE 0 text26 dist/default/production\pidx.X.production.o
+init_fetch0 2E24 0 CODE 0 inittext dist/default/production\pidx.X.production.o
+__HcstackBANK0 A6 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 A6 0 ABS 0 cstackBANK1 -
+__HcstackBANK3 A6 0 ABS 0 cstackBANK3 -
+__Lend_init 24 0 CODE 0 end_init -
+_activation B4 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__LcstackCOMMON A6 0 ABS 0 cstackCOMMON -
+end_of_initialization 7A 0 CODE 0 cinit dist/default/production\pidx.X.production.o
+convertToReal@temp D7 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+__Hintentry 24 0 CODE 0 intentry -
+fptable 82 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+fptotal 7 0 ABS 0 - dist/default/production\pidx.X.production.o
+_ser_init 105A 0 CODE 0 text6 dist/default/production\pidx.X.production.o
+__Lstrings A6 0 ABS 0 strings -
+?___aldiv 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?___ftadd 41 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?___ftmul 32 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?___fttol 4D 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+isr@portB 7C 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+__end_of_protocol_task FAC 0 CODE 0 text14 dist/default/production\pidx.X.production.o
+_setPoint C8 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK0 A6 0 ABS 0 bssBANK0 -
+__HbssBANK1 A6 0 ABS 0 bssBANK1 -
+__HbssBANK3 A6 0 ABS 0 bssBANK3 -
+_sys_init 2DAA 0 CODE 0 text1 dist/default/production\pidx.X.production.o
+cleanupBuffer@i 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+isValidCmd@aChar 26 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_ser_init 1096 0 CODE 0 text6 dist/default/production\pidx.X.production.o
+__end_of_pro_setMyId 2D4E 0 CODE 0 text4 dist/default/production\pidx.X.production.o
+__ptext1 2DAA 0 CODE 0 text1 dist/default/production\pidx.X.production.o
+__ptext2 11C8 0 CODE 0 text2 dist/default/production\pidx.X.production.o
+__ptext3 141C 0 CODE 0 text3 dist/default/production\pidx.X.production.o
+__ptext4 2D42 0 CODE 0 text4 dist/default/production\pidx.X.production.o
+__ptext5 2DDC 0 CODE 0 text5 dist/default/production\pidx.X.production.o
+__ptext6 105A 0 CODE 0 text6 dist/default/production\pidx.X.production.o
+__ptext7 2D94 0 CODE 0 text7 dist/default/production\pidx.X.production.o
+__ptext8 1222 0 CODE 0 text8 dist/default/production\pidx.X.production.o
+__ptext9 10D8 0 CODE 0 text9 dist/default/production\pidx.X.production.o
+_pos_getCurrentPosition 2EA2 0 CODE 0 text38 dist/default/production\pidx.X.production.o
+__end_of_pos_UpdatePosition 1566 0 CODE 0 text45 dist/default/production\pidx.X.production.o
+___aldiv@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+putch@c 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_sys_init 2DC0 0 CODE 0 text1 dist/default/production\pidx.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+entry__putch 8E 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_isValid 111C 0 CODE 0 text19 dist/default/production\pidx.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+_tsk_task 66 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_pid_pid A6 0 CODE 0 text37 dist/default/production\pidx.X.production.o
+_framingError 2D6E 0 CODE 0 text20 dist/default/production\pidx.X.production.o
+___ftmul@exp 3B 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of__initialization 7A 0 CODE 0 cinit dist/default/production\pidx.X.production.o
+__Lfunctab 82 0 ENTRY 0 functab -
+__end_of_pid_scaleExcitation 16CC 0 CODE 0 text39 dist/default/production\pidx.X.production.o
+_pro_init 2DDC 0 CODE 0 text5 dist/default/production\pidx.X.production.o
+__pidataBANK3 2D5E 0 CODE 0 idataBANK3 dist/default/production\pidx.X.production.o
+pid_setPoint@position 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__Lclrtext A6 0 ABS 0 clrtext -
+___altoft@sign 31 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+?_pos_getCurrentPosition 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+___ftpack@sign 28 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pos_UpdatePosition 14B6 0 CODE 0 text45 dist/default/production\pidx.X.production.o
+___lmul@product 3C 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_pos_encoderStatus 2E74 0 CODE 0 text46 dist/default/production\pidx.X.production.o
+_cleanupBuffer 101E 0 CODE 0 text21 dist/default/production\pidx.X.production.o
+___lmul@multiplicand 37 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_pro_init 2DFE 0 CODE 0 text5 dist/default/production\pidx.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\pidx.X.production.o
+_message 1C0 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+_integralError C0 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__Hend_init 2A 0 CODE 0 end_init -
+init_ram0 2E2C 0 CODE 0 inittext dist/default/production\pidx.X.production.o
+___aldiv@counter 2D 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pro_ptr 68 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+__end_of_main 101E 0 CODE 0 maintext dist/default/production\pidx.X.production.o
+_ANSEL 188 0 ABS 0 - dist/default/production\pidx.X.production.o
+_BRG16 C3B 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCP1X BD 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCP1Y BC 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCP2X ED 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCP2Y EC 0 ABS 0 - dist/default/production\pidx.X.production.o
+_pro_getMessage 1E36 0 CODE 0 text15 dist/default/production\pidx.X.production.o
+_DC1B0 BC 0 ABS 0 - dist/default/production\pidx.X.production.o
+_DC1B1 BD 0 ABS 0 - dist/default/production\pidx.X.production.o
+_DC2B0 EC 0 ABS 0 - dist/default/production\pidx.X.production.o
+_DC2B1 ED 0 ABS 0 - dist/default/production\pidx.X.production.o
+_PORTA 5 0 ABS 0 - dist/default/production\pidx.X.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\pidx.X.production.o
+_RCREG 1A 0 ABS 0 - dist/default/production\pidx.X.production.o
+_SPBRG 99 0 ABS 0 - dist/default/production\pidx.X.production.o
+_T2CON 12 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TRISA 85 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TRISC 87 0 ABS 0 - dist/default/production\pidx.X.production.o
+_TXREG 19 0 ABS 0 - dist/default/production\pidx.X.production.o
+__end_of_putch 10D8 0 CODE 0 text17 dist/default/production\pidx.X.production.o
+__Hram A6 0 ABS 0 ram -
+__Lram A6 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production\pidx.X.production.o
+_dummy 67 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+_error B0 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+_putch 1096 0 CODE 0 text17 dist/default/production\pidx.X.production.o
+_kIntegral 1CB 0 BANK3 1 nvBANK3 dist/default/production\pidx.X.production.o
+_value A4 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+?_isValid 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_CCP1CON 17 0 ABS 0 - dist/default/production\pidx.X.production.o
+_CCP2CON 1D 0 ABS 0 - dist/default/production\pidx.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\pidx.X.production.o
+___fttol@sign1 54 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pos_setCurrentPosition 2F9C 0 CODE 0 text25 dist/default/production\pidx.X.production.o
+__HdataBANK3 A6 0 ABS 0 dataBANK3 -
+_isValidCmd FAC 0 CODE 0 text18 dist/default/production\pidx.X.production.o
+pos_setCurrentPosition@pos 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__initialization 2A 0 CODE 0 cinit dist/default/production\pidx.X.production.o
+___bmul@product 25 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__pbssBANK0 64 0 BANK0 1 bssBANK0 dist/default/production\pidx.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\pidx.X.production.o
+__pbssBANK3 190 0 BANK3 1 bssBANK3 dist/default/production\pidx.X.production.o
+_addToIncomingBuffer 2DC0 0 CODE 0 text24 dist/default/production\pidx.X.production.o
+_convertToReal 6E4 0 CODE 0 text31 dist/default/production\pidx.X.production.o
+__pstrings 2000 0 STRING 0 strings dist/default/production\pidx.X.production.o
+convertToReal@i E4 0 BANK1 1 cstackBANK1 dist/default/production\pidx.X.production.o
+pro_getMessage@i 36 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+addToIncomingBuffer@aChar 24 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+_pos_init 2D94 0 CODE 0 text7 dist/default/production\pidx.X.production.o
+fpbase 8C 0 ENTRY 0 functab dist/default/production\pidx.X.production.o
+___ftmul@f3_as_product 3C 0 BANK0 1 cstackBANK0 dist/default/production\pidx.X.production.o
+__end_of_framingError 2D80 0 CODE 0 text20 dist/default/production\pidx.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 16D5 2DAA B 2
+text2 0 8E4 11C8 2D 2
+text3 0 A0E 141C 4D 2
+text4 0 16A1 2D42 6 2
+text5 0 16EE 2DDC 11 2
+text6 0 82D 105A 1E 2
+text7 0 16CA 2D94 B 2
+text8 0 911 1222 39 2
+text9 0 86C 10D8 22 2
+text10 0 94A 1294 3A 2
+text11 0 D84 1B08 C0 2
+text12 0 1696 2D2C 5 2
+text13 0 169B 2D36 6 2
+text15 0 F1B 1E36 E5 2
+text16 0 8B7 116E 2D 2
+text17 0 84B 1096 21 2
+text19 0 88E 111C 29 2
+text20 0 16B7 2D6E 9 2
+text21 0 80F 101E 1E 2
+text22 0 17E7 2FCE 19 2
+text23 0 16C0 2D80 A 2
+text24 0 16E0 2DC0 E 2
+text25 0 17CE 2F9C 19 2
+text26 0 17B5 2F6A 19 2
+text27 0 179C 2F38 19 2
+text28 0 1783 2F06 19 2
+text29 0 176A 2ED4 19 2
+text30 0 16FF 2DFE 13 2
+text32 0 C5F 18BE 88 2
+text33 0 E44 1C88 D7 2
+text35 0 984 1308 42 2
+text36 0 BE1 17C2 7E 2
+text37 0 53 A6 7AC 2
+text38 0 1751 2EA2 19 2
+text39 0 B0B 1616 5B 2
+text40 0 B66 16CC 7B 2
+text41 0 9C6 138C 48 2
+text42 0 CE7 19CE 9D 2
+text43 0 173A 2E74 17 2
+text44 0 AB3 1566 58 2
+text45 0 A5B 14B6 58 2
+text46 0 1725 2E4A 15 2
+maintext 0 800 1000 F 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 4C 1
+inittext 0 1712 2E24 13 2
+intentry 0 4 8 3D 2
+reset_vec 0 0 0 3 2
+bssBANK1 1 A0 A0 49 1
+bssBANK3 1 190 190 53 1
+idataBANK3 0 16AF 2D5E 8 2
+strings 0 1000 2000 1C 2
+functab 0 41 82 12 2
+clrtext 0 16A7 2D4E 8 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
